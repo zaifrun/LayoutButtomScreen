@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,20 +15,20 @@
             android:id="@+id/new_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
-            android:text="button1" />
+            android:layout_marginStart="80dp"
+            android:text="@string/button1" />
 
         <Button
             android:id="@+id/list_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="button2" />
+            android:text="@string/button2" />
 
         <Button
             android:id="@+id/more_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="button3" />
+            android:text="@string/button3" />
     </LinearLayout>
 
     <!-- This will be your gameview - notice that it is BELOW
@@ -46,7 +43,7 @@
         android:id="@+id/text"
         android:layout_above="@id/buttons"
         android:background="@android:color/holo_blue_light"
-        android:text="seebelow" />
+        android:text="@string/seebelow" />
 
 
 
